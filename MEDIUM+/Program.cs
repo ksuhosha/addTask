@@ -11,7 +11,8 @@ while (tmp != 0)
 }
 bool CheckSimplNum(int num)
 {
-    if (num < 4) return true;
+    if(num < 2) return false;
+    else if (num < 4) return true;
     else if (num % 2 == 0) return false;
     else
     {
